@@ -28,3 +28,8 @@ set lhost {your local ip adress or just 0.0.0.0}
 `
 run
 `
+
+  
+Feel free, any cent counts will really help :)  
+BTC address:168vrx5UuJNfNuvoYe6qhmAZCvePW4VPj2  
+usdt address (binance trc20): TKP9Ch8JELiqn7n5VdfGMNqJwW2wpZAYi3
