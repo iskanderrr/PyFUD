@@ -1,5 +1,5 @@
 # PyFUD
-![Image](/screenshots/images.png)  
+![Image](/image_2023-02-01_232544745.png)  
 fully Undetectable payload generator for metasploit  
 Usage:
 `pyfud.py --host HOST --output OUTPUT file name --port PORT`  
